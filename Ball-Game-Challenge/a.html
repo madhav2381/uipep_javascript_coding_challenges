@@ -1,1 +1,28 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Ball Simulator</title>
+<link rel="stylesheet" type="text/css" href="Ball.css">
+
+<div class="center-align">
+<h3>U&I Game Challenge</h3>
+<input id="myRange" type="range" min="1" max="100" value="1" onchange="changeSpeed(this.value)"> <span id="demo"></span>
+<input type="submit" value="play" onclick="play()">
+<input type="submit" value="pause" onclick="pause()">
+<input type="submit" onclick="clearCanvas()" value="Reset">
+<br><br>
+</div>
+
+<div class="center-align">
+<canvas id="canvas" style="border:1px solid" ></canvas>
+</div>
+
+<div class="center-align">
+Number of collition in last second : <span id="collition"></span>
+</div>
+<script src="some.js"></script>
+
+
+
+
+
 
